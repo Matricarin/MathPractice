@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathPracticeConsole", "MathPracticeConsole\MathPracticeConsole.csproj", "{2105B929-F2D5-4232-94F3-8A4D8B9D48DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrices", "Matrices\Matrices.csproj", "{B2353DA4-BA9C-47D2-96E4-59FBBD203784}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{2105B929-F2D5-4232-94F3-8A4D8B9D48DF}.Release|x64.Build.0 = Release|Any CPU
 		{2105B929-F2D5-4232-94F3-8A4D8B9D48DF}.Release|x86.ActiveCfg = Release|Any CPU
 		{2105B929-F2D5-4232-94F3-8A4D8B9D48DF}.Release|x86.Build.0 = Release|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Debug|x64.Build.0 = Debug|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Debug|x86.Build.0 = Debug|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Release|x64.ActiveCfg = Release|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Release|x64.Build.0 = Release|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Release|x86.ActiveCfg = Release|Any CPU
+		{B2353DA4-BA9C-47D2-96E4-59FBBD203784}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
