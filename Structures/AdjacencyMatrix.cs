@@ -1,4 +1,4 @@
-﻿namespace Matrices;
+﻿namespace Structures;
 
 public sealed class AdjacencyMatrix
 {
