@@ -1,4 +1,4 @@
-namespace MathPracticeConsole.Matrices
+namespace MathPracticeConsole.Graphs
 {
     public interface IMathEx
     {

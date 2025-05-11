@@ -1,4 +1,4 @@
-﻿using MathPracticeConsole.Matrices;
+﻿using MathPracticeConsole.Graphs;
 
 namespace MathPracticeConsole
 {
@@ -6,7 +6,7 @@ namespace MathPracticeConsole
     {
         public static void Main(string[] args)
         {
-            IMathEx ex = new Ex1();
+            IMathEx ex = new Ex2();
             ex.Run();
         }
     }

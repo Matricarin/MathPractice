@@ -1,6 +1,6 @@
 using Structures;
 
-namespace MathPracticeConsole.Matrices
+namespace MathPracticeConsole.Graphs
 {
     public class Ex1 : IMathEx
     {
