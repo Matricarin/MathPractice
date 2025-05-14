@@ -6,7 +6,7 @@ namespace MathPracticeConsole
     {
         public static void Main(string[] args)
         {
-            IMathEx ex = new Ex2();
+            IMathEx ex = new Ex3();
             ex.Run();
         }
     }
