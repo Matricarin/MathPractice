@@ -1,5 +1,11 @@
 ﻿namespace Structures;
 
+/// <summary>
+///     Матрица смежности
+///     Представляет собой матрицу n * n, где n - количество вершин графа,
+///     а значение (i,j) представляет собой ребро графа, 1 - если ребро
+///     существует, 0 - если нет.
+/// </summary>
 public sealed class AdjacencyMatrix
 {
     private readonly double[][] _matrix;
@@ -27,7 +33,11 @@ public sealed class AdjacencyMatrix
             _matrix[i] = new double[columns];
         }
     }
-
+    
+    /// <summary>
+    ///     Выводит список индексов вершин, на которых есть петли. 
+    /// </summary>
+    /// <returns></returns>
     public List<int> FindLoopsInMatrix()
     {
         var loops = new List<int>();
@@ -49,6 +59,11 @@ public sealed class AdjacencyMatrix
         return loops;
     }
 
+    /// <summary>
+    ///     Проверка явлется ли созданная матрица квадратной, так как
+    ///     матрица должна быть n * n, где n - количество вершин
+    /// </summary>
+    /// <param name="matrix">матрица</param>
     private bool IsSquareMatrix(double[][] matrix)
     {
         var rows = matrix.Length;
