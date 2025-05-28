@@ -8,7 +8,14 @@ public class ExercisesHandler
     {
         cache = new HashSet<int>();
     }
-
+    
+    /// <summary>
+    ///     Проверить есть ли путь между двумя вершинами направленного графа.
+    ///     Решение через поиск в глубину DFS.
+    /// </summary>
+    /// <param name="adjList">Список смежности</param>
+    /// <param name="node1">Первая вершина</param>
+    /// <param name="node2">Вторая вершина</param>
     public bool IsPathExist(List<List<int>> adjList, int node1, int node2)
     {
         if (adjList.Count == 0)
